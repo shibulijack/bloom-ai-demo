@@ -1,11 +1,7 @@
 {
-  "buildCommand": "prisma generate && prisma migrate deploy && next build",
   "functions": {
     "app/api/**/*.ts": {
       "maxDuration": 30
     }
-  },
-  "env": {
-    "PRISMA_GENERATE_DATAPROXY": "true"
   }
 }

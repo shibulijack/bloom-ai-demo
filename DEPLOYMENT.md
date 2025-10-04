@@ -30,7 +30,7 @@ Since Vercel doesn't support SQLite, you'll need PostgreSQL. Choose one of these
 2. Select your OAuth 2.0 Client ID
 3. Add your Vercel domain to "Authorized redirect URIs":
    ```
-   https://your-app-name.vercel.app/api/auth/callback/google
+   https://bloom-ai-demo.vercel.app/api/auth/callback/google
    ```
    Replace `your-app-name` with your actual Vercel app name
 
@@ -60,7 +60,7 @@ In your Vercel project dashboard, go to Settings → Environment Variables and a
 | Variable | Value | Notes |
 |----------|-------|-------|
 | `NODE_ENV` | `production` | Production environment |
-| `NEXTAUTH_URL` | `https://your-app.vercel.app` | Your Vercel app URL |
+| `NEXTAUTH_URL` | `https://bloom-ai-demo.vercel.app` | Your Vercel app URL |
 | `NEXTAUTH_SECRET` | `your-secret-here` | Generate with `openssl rand -base64 32` |
 | `AUTH_SECRET` | `your-secret-here` | Same as NEXTAUTH_SECRET |
 | `GOOGLE_CLIENT_ID` | `your-google-client-id` | From Google Cloud Console |
