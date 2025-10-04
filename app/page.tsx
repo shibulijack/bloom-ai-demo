@@ -1,13 +1,12 @@
 import React from 'react';
 
-const StorefrontPage = () => {
+const HomePage = () => {
   return (
-    <div className="container mx-auto px-4">
-      <h1 className="text-3xl font-bold my-4">Welcome to Bloom AI Storefront</h1>
-      <p className="text-lg">Explore our featured products and categories.</p>
-      {/* Add components for featured products or categories here */}
+    <div className="flex flex-col items-center justify-center min-h-screen">
+      <h1 className="text-4xl font-bold">Welcome to Bloom AI</h1>
+      <p className="mt-4 text-lg">Your one-stop shop for all things AI.</p>
     </div>
   );
 };
 
-export default StorefrontPage;
+export default HomePage;
