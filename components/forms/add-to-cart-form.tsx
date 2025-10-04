@@ -2,7 +2,7 @@
 
 import { useState, useTransition } from 'react';
 
-import { addToCart } from '@/app/(storefront)/_actions/add-to-cart';
+import { addToCart } from '@/app/_actions/add-to-cart';
 
 interface AddToCartFormProps {
   productId: string;
